@@ -1,10 +1,13 @@
 <?php 
-$title = "Datetime Manip";
-include 'includes/header.php'; 
+
+    $title = "Datetime Manip";
+    include 'includes/header.php';
+
 ?>
+
     <h1>Date and Time Manipulation</h1>
 
-    <?php 
+<?php 
     $datenow = getdate();
     echo "Todays Date: <br/>";
     echo $datenow['mday'] . '<br/>';
@@ -22,6 +25,6 @@ include 'includes/header.php';
 
     
     
-    ?>
+?>
     
-    <?php require 'includes/footer.php' ?>
+<?php require 'includes/footer.php' ?>

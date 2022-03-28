@@ -1,9 +1,12 @@
 <?php 
+
     $title = "Arrays and Printouts";
     include 'includes/header.php'; 
 ?>
+
     <h1><?php echo $title ?></h1>
-    <?php 
+
+<?php 
         // a variable
         $num = 3;
 
@@ -21,6 +24,6 @@
         for($count = 0; $count < $size; $count++){
             echo "<p>$numbers[$count]</p>";
         }
-    ?>
+?>
 
 <?php require 'includes/footer.php' ?>

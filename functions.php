@@ -1,10 +1,12 @@
 <?php 
+
     $title = "Functions";
     include 'includes/header.php'; 
+
 ?>
    <h1>Functions</h1>
     
-    <?php
+<?php
     
     /*Defining a Function */
 
@@ -50,9 +52,6 @@
     $return_value = returnProduct(10,200);
     echo $return_value . '<br/>';
 
-
-
-    
-    ?>
+?>
 
 <?php require 'includes/footer.php' ?>
